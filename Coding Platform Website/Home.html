@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Home</title>
+<style>
+*{margin: 0;padding: 0;}
+body{
+  margin: 0;
+  padding: 0;
+  width: auto;
+  box-sizing: border-box;
+  background-color: rgb(35, 35, 35);
+}
+html{
+    scroll-behavior: smooth;
+}
+#bodi{
+    color: aliceblue;
+    font-size: 50px;
+    padding-left: 12%;
+    padding-top: 10%;   
+}
+.container input[type=text] {
+    float:right;
+    padding: 3px;
+    margin-top: 13px;
+    margin-right: 16px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.btn{
+    display: flex;  
+    justify-content:center; 
+    align-items: center;  
+}
+.button{
+   font-size: 40px;
+   color: rgb(20, 20, 19);
+   background-color: rgb(245, 232, 62);
+   border-radius: 7px;
+}
+.photo img{
+    width: 80%;
+    height: 600px;
+    align-items:normal;
+    margin-top: 20px;
+    margin-left: 110px;
+}
+.work{
+    color: aliceblue;
+    padding-top: 60px;
+    padding-left: 40%;
+    font-size: x-large;
+    align-items: center;
+}
+.work-content{
+    color: beige;
+    padding: 465px;
+    font-size: larger;
+    padding-top: 20px;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+.work-container{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;   
+    display: table;
+    padding-top: 50px;
+ 
+}
+.column{
+    float: left;
+    padding-left: 100px;
+    width: 25%;
+    height: 200px;
+}
+.learn{
+    color: yellow;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 250px;
+}
+.flex-container>div{
+    width: 80px;
+    color: yellow;
+    margin: 100px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.flex-container1{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 250px;
+    padding-top: 3px;
+}
+.flex-container1>div{
+    width: 80px;
+    color: yellow;
+    margin: 100px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+.explore{
+    display: flex;  
+    justify-content:center; 
+    align-items: center;  
+}
+.expbtn{
+    font-size: 25px;
+   color: rgb(20, 20, 19);
+   border-radius: 7px;
+   background-color: yellow;
+}
+footer{
+    text-align: center;
+    padding: 35px;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <input type="text" placeholder="Search tutorials">
+    </div>
+    <section id="bodi">
+        <p>Learn to code for free.<br>  
+        Build projects. <br> 
+        Earn certifications.</p> 
+    </section>
+    <div class="btn">
+        <a href="reg.html"><button class="button"> Get started </button></a>  
+    </div>
+    <div class="photo">
+        <img src="study.jfif" alt="study">
+    </div>
+    <div class="work">
+        <h1> How it works</h1>
+    </div>
+     <div class="work-content">
+         <p>This is the website we wish we had when we were learning on our.We scroll the internet looking for only the best resources to supplement your learning and present them in a logical order. 
+        </p>
+     </div >  
+    <div class="work-container">
+        <div class="column">
+            <i class="fa fa-book" style="font-size:88px;color:rgb(206, 239, 77)"></i>
+            <h2>Learn</h2>
+            <p>Learn from a curriculum with the best curated online tutorials, blogs, and courses.</p>
+        </div>
+        <div class="column">
+            <i class="fa fa-laptop" style="font-size:88px;color:rgb(206, 239, 77)"></i>
+            <h2>Build</h2>
+            <p>Build dozens of portfolio-worthy projects along the way, from simple scripts to full programs and deployed websites.</p>
+        </div>
+        <div class="column">
+            <i class='far fa-comments' style='font-size:88px;color:rgb(206, 239, 77)'></i>
+            <h2>Connect</h2>
+            <p>You're not alone. Learn and get help from our friendly community of beginner and experienced developers.</p>
+        </div>
+    </div>
+    <div class="learn">
+        <h2>Learn everything you need to know</h2>
+    </div>
+    <div class="flex-container">
+        <div>
+            <img src="HTML.png"> 
+            <a href="reg.html"></a>
+            <h3>HTML</h3>
+        </div>
+        <div>
+            <img src="CSS.png">
+            <h3>CSS</h3>
+        </div>
+        <div>
+            <img src="JS.png">
+            <h3>Javascript</h3>
+        </div>
+    </div>
+    <div class="flex-container1">
+        <div>
+            <img src="react.png" >
+            <h3>ReactJS</h3>
+         </div>
+        <div>
+            <img src="Nodwejs.png">
+            <h3>NodeJS</h3>
+        </div>
+        <div>
+            <img src="Database.png">
+            <H3>Database</H3>
+        </div>
+    </div>
+    <div class="explore">
+        <a href="reg.html"><button class="expbtn">Explore courses </button></a>  
+
+    </div>
+    <footer> 
+        <i class="fa fa-twitter" style="font-size:36px; color: yellow;"></i>    
+        <i class="fa fa-instagram" style="font-size:36px; color: yellow;margin-left: 20px;"></i>
+        <i class="fa fa-github" style="font-size:36px; color: yellow;margin-left: 20px;"></i>
+        <i>FAQ 
+            <style>
+                i{ color: yellow;
+                margin-left: 20px;
+                }
+            </style>
+        </i>
+    </footer>
+</body>
+</html>
