@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+</head>
+<style>
+body{
+    background-image:url("contact.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding-top: 10%;
+    color: #fff;
+}
+.container{
+    width: 550px;
+    height: 320px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0 0 10px 0 rgb(135, 152, 209);
+}
+ul.list{
+    list-style-type: none;
+    text-align: center;
+}
+ul.list li{
+   width: 125px;
+   margin-bottom: 20px;
+}
+ul.list li input{
+    width: 450px;
+    text-align:center;
+    padding: 12px 9px;
+    background-color: #d3d3d3;
+    border-radius: 10px;
+}
+ul.submit{
+    list-style-type: none;
+    text-align: center;
+}
+ul.submit li input[type="button"]{
+    background-color: #4690fb;
+    color: #fff;
+    width: 250px;
+    padding-left: 20px;
+    border-radius: 10px;
+    padding: 12px 9px;
+}
+</style>
+<body> 
+     <div class="container">
+         <ul class="list">
+            <center><li><h2>Contact Us</h2></li></center>
+             <li><input type="text" name="Name" placeholder="Your Name"></li>
+             <li><input type="email" name="Mail" placeholder="Your Mail"></li>
+             <li><input type="text" name="Message" placeholder="Your Message"></li>
+         </ul>
+         <ul class="submit">
+            <li><input type="button" name="Submit " value="Submit"></li>
+         </ul>
+     </div>    
+</body>
+</html>
